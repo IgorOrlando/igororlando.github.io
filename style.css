@@ -18,8 +18,9 @@ body {
 }
 
 
-/* HEADER */
-
+/*---------------------------------------------------------------*/
+/*------------------------------HEADER---------------------------*/
+/*---------------------------------------------------------------*/
 header {
     font-family: 'TheMix Caps', sans-serif;
     background-color: #FAF1E4;
@@ -30,6 +31,7 @@ header {
 }
 
 header h1 {
+    margin-left: -20px;
     color: #186F65;
     font-weight: 900;
     font-size: 2.5rem;
@@ -47,7 +49,7 @@ header .navegacao-primaria {
 }
 
 header .navegacao-primaria li a {
-    color: #454545;
+    color: #FAF1E4;
     width: 0px;
     height: 0px;
     font-size: 1.3rem;
@@ -71,8 +73,9 @@ header .navegacao-primaria li a:hover::after {
 
 
 
-/* DOWLOAD CV SECAO */
-
+/*---------------------------------------------------------------*/
+/*------------------------DOWNLOAD CV SECTION--------------------*/
+/*---------------------------------------------------------------*/
 .section-div {
     animation: inicializar .7s forwards;
     background-color: #FAF1E4;
@@ -153,9 +156,10 @@ header .navegacao-primaria li a:hover::after {
 }
 
 
-/* SEÇÃO PRINCIPAL SOBRE MIM */
 
-
+/*---------------------------------------------------------------*/
+/*------------------------SOBRE MIM SECTION----------------------*/
+/*---------------------------------------------------------------*/
 main {
     background-color: #FAF1E4;
     color: white;
@@ -301,77 +305,9 @@ main .sobre {
     }
 }
 
-
-/* RESPONSIVO */
-
-@media(max-width: 992px) {
-    .section-div img {
-        display: none;
-    }
-
-    .section-div div{
-        color:white;
-    }
-
-    header {
-        justify-content: space-between;
-        padding: 30px 70px;
-    }
-
-    header .navegacao-primaria {
-        display: none;
-    }
-
-    header i {
-        color: #000;
-        font-size: 3rem;
-    }
-
-
-    header .navegacao-primaria.ativado {
-        position: absolute;
-        display: grid;
-        top: 80px;
-        color: white;
-        z-index: 1;
-        padding: 30px;
-        font-size: 1.6rem;
-        font-weight: bold;
-        border-radius: 0 0 4px 4px;
-        right: 20px;
-        animation: sobeSecao .8s ease-in-out forwards;
-    }
-}
-
-
-
-@media (min-width: 923px) {
-    i.fa-bars {
-      display: none;
-    }
-}
-
-@media (max-width: 992px) {
-    #minha-imagem {
-      display: none;
-    }
-  }
-  
-
-@media(max-width: 992px) {
-    .sobre img {
-        grid-column: 1/-1;
-        justify-self: center;
-    }
-
-    .sobre_conteudo {
-        grid-column: 1/-1;
-    }
-}
-
-
-/* SEÇÃO SERVICES */
-
+/*---------------------------------------------------------------*/
+/*------------------------SKILLS SECTION-------------------------*/
+/*---------------------------------------------------------------*/
 .services {
     margin-top: -30px;
     padding: 60px;
@@ -463,9 +399,9 @@ main .sobre {
     border-left: 2px solid #13b544;
 }
 
-
-/* SOBRE MINHAS EXPERIÊNCIAS */
-
+/*---------------------------------------------------------------*/
+/*----------------------ACADEMICO SECTION------------------------*/
+/*------------------------EXPERIENCIA----------------------------*/
 .my_resume {
     color: #000;
 }
@@ -478,6 +414,13 @@ main .sobre {
     gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
+
+
+
+
+
+
+
 
 .resume_gerenico h2 {
     color: #186F65;
@@ -549,8 +492,10 @@ main .sobre {
     color: #8BB7B2;
 }
 
-/* MEUS DIPLOMAS E CURSOS */
 
+/*---------------------------------------------------------------*/
+/*----------------------ACADEMICO SECTION------------------------*/
+/*--------------------------GRADUAÇÕES---------------------------*/
 .resume_gerenico .education_content div {
     animation: sobeSecao .5s ease-in-out forwards;
     display: none;
@@ -593,9 +538,9 @@ main .sobre {
     animation: sobeSecao .5s ease-in-out forwards;
 }
 
-
-/* PROJECTS */
-
+/*---------------------------------------------------------------*/
+/*---------------------PORTIFOLIO SECTION------------------------*/
+/*---------------------------------------------------------------*/
 .projects {
     padding: 30px;
     display: grid;
@@ -654,8 +599,8 @@ main .sobre {
 .projects_armazenamento ul li img {
     justify-content: center;
     cursor: pointer;
-    max-width: 100%;
-    height: 100%;
+    max-width: 550px;
+    height: 550px;
     border-radius: 4px; 
     padding-bottom: 150px;
     padding-left: 60px;
@@ -686,9 +631,9 @@ main .sobre {
     }
 }
 
-
-/* FOOTER */
-
+/*---------------------------------------------------------------*/
+/*----------------------------FOOTER-----------------------------*/
+/*---------------------------------------------------------------*/
 footer {
     background-color: #FAF1E4;
     padding: 30px;
@@ -741,3 +686,213 @@ footer .footer_comercial {
     margin: 90px 0;
     font-family: 'Poppins';
 }
+
+
+/*---------------------------------------------------------------*/
+/*---------------------------RESPONSIVO--------------------------*/
+/*---------------------------------------------------------------*/
+@media (min-width: 701px) and (max-width: 992px) {
+    .projects .projects_armazenamento ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+    }
+
+    .projects .projects_armazenamento ul li img{
+        width: 750px;
+        height: 550px;
+        gap: 0;
+        margin-left: 25px;
+        margin-bottom: -130px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+    .resume_gerenico{
+        display: block;
+        margin: 70px;
+    }
+    .resume_gerenico h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .projects .projects_armazenamento ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 460px;
+    }
+
+    .projects .projects_armazenamento ul li img{
+        width: 500px;
+        height: 500px;
+        gap: 0;
+        margin-left: 25px;
+        margin-bottom: -130px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 499px) {
+    /*header*/
+    i.fa-bars{
+        margin-left: 20px;
+
+    }
+
+    .navegacao-primaria.ativado {
+        margin-top: 60px;
+    }
+
+    /*sobre mim*/
+    .sobre_info{
+        display: block;
+    }
+
+    .sobre_info p{
+        margin-top: 10px;
+    }
+
+    /*skills*/
+    .my_services{
+        display:grid
+    }
+
+    .my_services ul li{
+        margin-right: -90px;
+        margin-left: -90px;
+    }
+
+    /*experiencia*/
+    .resume_gerenico{
+        display: block;
+        margin: -20px;
+    }
+
+    .resume_gerenico h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /*portifolio*/
+    div.project_models{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .projects .projects_armazenamento ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: 480px;
+    }
+
+    .projects .projects_armazenamento ul li img{
+        width: 450px;
+        height: 450px;
+        gap: 0;
+        margin-left: 25px;
+        margin-bottom: -130px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 993px) {
+    i.fa-bars {
+      display: none;
+    }
+
+
+    .projects .projects_armazenamento ul li img{
+        width: 500px;
+        height: 500px;
+        margin-bottom: -150px;
+        margin-right: -20px;
+    }
+
+
+
+
+
+
+
+}   
+
+
+@media(max-width: 992px) {
+    
+    .section-div {
+        display: flex;
+    }
+
+    .section-div img {
+        display: none;
+    }
+
+    .section-div div{
+        color:white;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+
+    header .navegacao-primaria {
+        display: none;
+    }
+
+    header i {
+        color: #000;
+        font-size: 3rem;
+    }
+
+    header .navegacao-primaria.ativado {
+        background-color: #186F65;
+        position: absolute;
+        display: grid;
+        top: 100px;
+        color: white;
+        z-index: 1;
+        padding: 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 4px;
+        right: 3px;
+        animation: sobeSecao .8s ease-in-out forwards;
+    }
+}
+
+@media (max-width: 992px) {
+    #minha-imagem {
+      display: none;
+    }
+  }
+  
+
+@media(max-width: 992px) {
+    .sobre img {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .sobre_conteudo {
+        grid-column: 1/-1;
+    }
+}
+
