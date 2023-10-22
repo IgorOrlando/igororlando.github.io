@@ -824,6 +824,10 @@ footer .footer_comercial {
 
 
 @media (min-width: 993px) {
+    .projects a{
+        margin-top: 100px;
+    }
+
 
     .projects .projects_armazenamento ul li img{
         width: 500px;
@@ -904,6 +908,11 @@ footer .footer_comercial {
         right: 3px;
         animation: sobeSecao .8s ease-in-out forwards;
     }
+
+    .projects a{
+        margin-top: 100px;
+    }
+
 }
 
 @media (max-width: 992px) {
