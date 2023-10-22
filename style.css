@@ -695,7 +695,7 @@ footer .footer_comercial {
     .projects .projects_armazenamento ul{
         display: flex;
         flex-direction: column;
-        margin-left: 460px;
+        margin-left: -55px;
     }
 
     .projects .projects_armazenamento ul li img{
@@ -720,7 +720,7 @@ footer .footer_comercial {
     .projects .projects_armazenamento ul{
         display: flex;
         flex-direction: column;
-        margin-left: 460px;
+        margin-left: -40px;
     }
 
     .projects .projects_armazenamento ul li img{
@@ -730,6 +730,7 @@ footer .footer_comercial {
         margin-left: 25px;
         margin-bottom: -130px;
     }
+
 
 }
 
@@ -788,7 +789,7 @@ footer .footer_comercial {
     .projects .projects_armazenamento ul{
         display: flex;
         flex-direction: column;
-        margin-left: 480px;
+        margin-left: -40;
     }
 
     .projects .projects_armazenamento ul li img{
@@ -816,21 +817,12 @@ footer .footer_comercial {
     i.fa-bars {
       display: none;
     }
-
-
     .projects .projects_armazenamento ul li img{
         width: 500px;
         height: 500px;
         margin-bottom: -150px;
         margin-right: -20px;
     }
-
-
-
-
-
-
-
 }   
 
 
