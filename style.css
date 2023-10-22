@@ -564,7 +564,9 @@ main .sobre {
     border-radius: 5px;
     color: white;
     padding: 6px 20px;
+    margin-bottom: 20px;
 }
+
 
 .project_models ul li.ativo {
     background-color: #8BB7B2;
@@ -727,7 +729,7 @@ footer .footer_comercial {
         width: 500px;
         height: 500px;
         gap: 0;
-        margin-left: 25px;
+        margin-left: -10px;
         margin-bottom: -130px;
     }
 
