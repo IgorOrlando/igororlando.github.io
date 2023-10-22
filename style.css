@@ -814,14 +814,40 @@ footer .footer_comercial {
 
 
 @media (min-width: 993px) {
-    i.fa-bars {
-      display: none;
-    }
+
     .projects .projects_armazenamento ul li img{
         width: 500px;
         height: 500px;
         margin-bottom: -150px;
         margin-right: -20px;
+    }
+    header {
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+
+    header .navegacao-primaria {
+        display: none;
+    }
+
+    header i {
+        color: #000;
+        font-size: 3rem;
+    }
+
+    header .navegacao-primaria.ativado {
+        background-color: #186F65;
+        position: absolute;
+        display: grid;
+        top: 100px;
+        color: white;
+        z-index: 1;
+        padding: 30px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 4px;
+        right: 3px;
+        animation: sobeSecao .8s ease-in-out forwards;
     }
 }   
 
