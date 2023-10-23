@@ -829,10 +829,10 @@ footer .footer_comercial {
 
 
     .projects .projects_armazenamento ul li img{
-        width: 500px;
-        height: 500px;
+        width: 470px;
+        height: 470px;
         margin-bottom: -150px;
-        margin-right: -20px;
+        margin-left: -40px;
     }
     header {
         justify-content: space-between;
