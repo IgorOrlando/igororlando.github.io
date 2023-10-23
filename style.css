@@ -795,11 +795,11 @@ footer .footer_comercial {
     }
 
     .projects .projects_armazenamento ul li img{
-        width: 400px;
-        height: 400px;
+        width: 365px;
+        height: 365px;
         gap: 0;
         margin-bottom: -130px;
-        margin-left: -5px;
+        margin-left: -15px;
     }
 
     .project_models ul li{
@@ -809,6 +809,7 @@ footer .footer_comercial {
     #outros-opcao{
         margin-left:30px;
     }
+
 
 }
 
