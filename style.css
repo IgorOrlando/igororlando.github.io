@@ -773,7 +773,6 @@ footer .footer_comercial {
     /*experiencia*/
     .resume_gerenico{
         display: block;
-        margin: -20px;
     }
 
     .resume_gerenico h2 {
@@ -932,4 +931,3 @@ footer .footer_comercial {
         grid-column: 1/-1;
     }
 }
-
