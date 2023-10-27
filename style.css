@@ -555,6 +555,7 @@ main .sobre {
     gap: 30px;
 }
 
+
 .project_models ul li {
     cursor: pointer;
     font-family: 'TheMix Caps', sans-serif;
@@ -608,7 +609,7 @@ main .sobre {
     padding-left: 60px;
 }
 
-.projects a {
+.viewport {
     background-color: #186F65;
     font-family: 'TheMix Caps', sans-serif;
     font-weight: 700;
